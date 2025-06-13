@@ -38,6 +38,8 @@ A simple CLI tool to find large files or folders and interactively delete, move,
 
 ```bash
 python main.py --path /home/user --threshold 500 --type both
+or
+python -m storage_sweeper --path /home/user --threshold 500 --type both
 ```
 
 - `--path`: Directory to scan (default: home dir)
